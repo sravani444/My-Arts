@@ -1,0 +1,67 @@
+
+.pencil{
+  background-color:black;
+  height: 80px;
+  width:1fr;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  border-bottom-width: 1px;
+}
+.button{
+  height: 40px;
+  width:100px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 30px;
+  font-size: 15px;
+  font-family: Roboto,Arial;
+  font-weight: bold;
+  border: none;
+}
+.viewMore{
+  background-color: blueviolet;
+  color: black;
+  height: 40px;
+  width:100px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 30px;
+  font-size: 15px;
+  font-family: Roboto,Arial;
+  font-weight: bold;
+  border: none;
+}
+
+.more{
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+.heading{
+  color:white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-left: 50px;
+   font-size: 20px;
+}
+.pencil_bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: rgb(240,240,240);
+  margin-top: 80px;
+}
+.pencil_card {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  gap: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}

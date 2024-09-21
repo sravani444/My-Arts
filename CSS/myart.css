@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+*{
+    padding: 0;
+    margin:0;
+}
+.arts-bg-container {
+   display: flex;
+   flex-direction: column;
+    border: none;
+    background-image: url("https://static01.nyt.com/images/2020/11/27/arts/27Art-Books-Cover-Illo/27Art-Books-Cover-Illo-superJumbo.jpg?quality=75&auto=webp");
+    background-size: cover;
+    padding: 10px;
+    
+}
+.draw{
+    background-color: transparent;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 150px;
+    border: none;
+    border-radius: 70px;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 255px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: opacity 1s;
+}
+.draw:hover{
+    opacity: 0.8;
+}
+
+.but{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 50px;
+}
+
+.myart-heading {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: red;
+    font-size: 50px;
+    margin-top:20px ;
+    margin-left: 10px;
+   
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: #f7e4f7;
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+@media screen and (min-width:738px) {
+    .card-container {
+        width: 650px;
+    }
+}
+
+.card-heading {
+    color: #0a0c57;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-description {
+    color: blue;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.my-arts-image {
+    margin-left: 90px;
+    width: 150px;
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: opacity 1s;
+}
+.button:hover{
+     opacity: 0.7;
+}
+.buttons{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100px;
+    height: 45px;
+    border-radius: var(--btn-border-radius, 9999999px);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-family:Roboto;
+    cursor: pointer;
+    background-color: #0d0c22;
+}

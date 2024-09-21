@@ -1,0 +1,71 @@
+.image{
+  height: 100px;
+  width:100px;
+  display: flex;
+  flex-direction: row; 
+  border-radius: 50px;
+}
+.button{
+  width:150px;
+  height:40px;
+  margin-top: 30px;
+  margin-left: 40px;
+  border-width: 1px;
+  border-color: rgb(192,192,192);
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: Roboto,Arial;
+  font-weight: 700;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity 2s;
+  background-color: rgb(240,240,240);
+}
+.p{
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-bottom:-1px;
+}
+.paragraph{
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.icon{
+  height: 25px;
+  padding-left: 20px;
+  background-color:rgb(240,240,240) ;
+}
+.middle-section{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 35px;
+  max-width: 350px;
+}
+.search-bar{
+  flex: 1;
+  height: 40px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192,192,192);
+  border-radius: 5px;
+  width: 350px;
+  margin-top: 5px;
+}
+.search-bar::placeholder{
+  font-size: 16px;
+}
+.bottom{
+  color: #282a35;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  margin-top: 10px;
+}
